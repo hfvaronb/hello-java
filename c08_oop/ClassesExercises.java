@@ -77,11 +77,15 @@ public class ClassesExercises {
             person.sayHello();
         }
 
-        Product product1 = new Product("MagicMouse", 450000);
-        product1.productDiscount();
-    }
+
         // 10. Crea una clase Product y un método que aplique un descuento sobre su
         // precio.
+
+        Product product1 = new Product("MagicMouse", 450000);
+        product1.showPrice();
+        product1.productDiscount(10);
+        product1.showPrice();
+    }
 
     }
 
